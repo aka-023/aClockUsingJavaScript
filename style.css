@@ -1,3 +1,7 @@
+body{
+    font-family:Lucida Handwriting;
+}
+
 #container{
     position:relative;
     width:25vw;
@@ -36,4 +40,27 @@
     top:1%;
     left:49%;
     opacity:0.4;
+}
+h1{
+    color: rgb(156, 50, 85);
+    max-width: 180px;
+    margin:auto;
+}
+@media screen and (max-width:900px){
+    #container{
+        top: 30vh;
+    }
+    #hour{
+        height: 7%;
+        top: 4.5%;
+    }
+    #minute{
+        height: 11%;
+        top: 1.5%;
+        left: 48%;
+    }
+    #seconds{
+        height: 11%;
+        top: 0.5%;
+    }
 }
